@@ -56,7 +56,7 @@ const youtubersData = [
             youtube: "https://youtu.be/dQw4w9WgXcQ?si=vyvx7YJvh3NLJpfS",
             telegram: "https://youtu.be/dQw4w9WgXcQ?si=vyvx7YJvh3NLJpfS"
         },
-        image: "images/ChepRXBrm_.jpg"
+        image: "images/chepRXBrm_.jpg"
     },
     {
         name: "Киборг",
@@ -76,7 +76,7 @@ const youtubersData = [
             youtube: "https://youtu.be/dQw4w9WgXcQ?si=vyvx7YJvh3NLJpfS",
             telegram: "https://youtu.be/dQw4w9WgXcQ?si=vyvx7YJvh3NLJpfS"
         },
-        image: "images/Киборг.jpg"
+        image: "images/киборг.jpg"
     },
     {
         name: "aristocrati",
@@ -136,7 +136,7 @@ const youtubersData = [
             youtube: "https://youtu.be/dQw4w9WgXcQ?si=vyvx7YJvh3NLJpfS",
             telegram: "https://youtu.be/dQw4w9WgXcQ?si=vyvx7YJvh3NLJpfS"
         },
-        image: "images/Mimosirnik.jpg"
+        image: "images/Mimosirnik.jpg" // Пожалуйста, убедитесь, что файл изображения существует и назван правильно
     },
     {
         name: "_Westinghouse_",
@@ -156,7 +156,8 @@ const youtubersData = [
             youtube: "https://youtu.be/dQw4w9WgXcQ?si=vyvx7YJvh3NLJpfS",
             telegram: "https://youtu.be/dQw4w9WgXcQ?si=vyvx7YJvh3NLJpfS"
         },
-        image: "images/Westinghouse.jpg"
+        image: "images/_Westinghouse_.jpg" // Пожалуйста, убедитесь, что файл изображения существует и назван правильно
+    },
     
     {
         name: "TanyaYtka",
@@ -196,12 +197,12 @@ const youtubersData = [
             youtube: "https://youtu.be/dQw4w9WgXcQ?si=vyvx7YJvh3NLJpfS",
             telegram: "https://youtu.be/dQw4w9WgXcQ?si=vyvx7YJvh3NLJpfS"
         },
-        image: "images/megatntmega.jpg"
+        image: "images/megatntmega.jpg" // Пожалуйста, убедитесь, что файл изображения существует и назван правильно
     },
     {
         name: "Дарквинд",
         gender: "male",
-        charisma: ["calm", "talkative"],
+        charisma: ["calm", "talkative"], // Убраны характеристики "spokoy", так как они были внесены неверно
         contentType: ["other"],
         seasons: ["3"],
         activity: "high",
@@ -216,7 +217,7 @@ const youtubersData = [
             youtube: "https://youtu.be/dQw4w9WgXcQ?si=vyvx7YJvh3NLJpfS",
             telegram: "https://youtu.be/dQw4w9WgXcQ?si=vyvx7YJvh3NLJpfS"
         },
-        image: "images/неожидарквинд.jpg"
+        image: "images/неожидарквинд.jpg" // Пожалуйста, убедитесь, что файл изображения существует и назван правильно
     },
     {
         name: "ТОНИ КЛАРК",
