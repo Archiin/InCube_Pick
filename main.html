@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Ютуберы</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="filters">
+            <!-- Фильтры здесь -->
+            <div class="filter-group">
+                <label>Пол:</label>
+                <select id="gender">
+                    <option value="all">Любой</option>
+                    <option value="male">Мужской</option>
+                    <option value="female">Женский</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label>Качества:</label><br>
+                <input type="checkbox" name="qualitie" value="mechanisms"> Механизмы<br>
+                <input type="checkbox" name="qualitie" value="PVP"> PVP<br>
+                <input type="checkbox" name="qualitie" value="ponimanie"> Понимание Игры<br>
+            </div>
+
+
+            <div class="filter-group">
+                <label>Харизма:</label><br>
+                <input type="checkbox" name="charisma" value="smart"> Умный<br>
+                <input type="checkbox" name="charisma" value="calm"> Спокойный<br>
+                <input type="checkbox" name="charisma" value="excited"> Возбужденный<br>
+                <input type="checkbox" name="charisma" value="thoughtful"> Задумчивый<br>
+                <input type="checkbox" name="charisma" value="aggressive"> Агрессивный<br>
+                <input type="checkbox" name="charisma" value="talkative"> Разговорчивый<br>
+            </div>
+
+            <div class="filter-group">
+                <label>Тип контента:</label><br>
+                <input type="checkbox" name="contentType" value="streams"> Стримы<br>
+                <input type="checkbox" name="contentType" value="videos"> Видео<br>
+                <input type="checkbox" name="contentType" value="other"> Ни то, ни другое<br>
+            </div>
+
+            <div class="filter-group">
+                <label>Был на сезонах:</label><br>
+                <input type="checkbox" name="seasons" value="1"> 1<br>
+                <input type="checkbox" name="seasons" value="2"> 2<br>
+                <input type="checkbox" name="seasons" value="3"> 3<br>
+            </div>
+
+            <div class="filter-group">
+                <label>Активность:</label>
+                <select id="activity">
+                    <option value="all">Любая</option>
+                    <option value="low">Играет мало</option>
+                    <option value="high">Много играет</option>
+                    <option value="medium">Среднее количество</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label>Снимает:</label><br>
+                <input type="checkbox" name="content" value="walkthroughs"> Прохождение сборок<br>
+                <input type="checkbox" name="content" value="minecraftServers"> Сервера Майнкрафта<br>
+                <input type="checkbox" name="content" value="facts"> Факты<br>
+                <input type="checkbox" name="content" value="reviews"> Обзоры<br>
+                <input type="checkbox" name="content" value="building"> Строительство<br>
+                <input type="checkbox" name="content" value="shorts"> Шортсы<br>
+                <input type="checkbox" name="content" value="nothing"> Ничего<br>
+            </div>
+
+            <div class="filter-group">
+                <label>Лор:</label><br>
+                <input type="checkbox" name="lore" value="human"> Человек<br>
+                <input type="checkbox" name="lore" value="plant"> Растение<br>
+                <input type="checkbox" name="lore" value="furry"> Фурри<br>
+                <input type="checkbox" name="lore" value="other"> Иное<br>
+            </div>
+
+            <div class="filter-group">
+                <label>Подписчики:</label><br>
+                <input type="checkbox" name="subscribers" value="100"> Больше 100<br>
+                <input type="checkbox" name="subscribers" value="500"> Больше 500<br>
+                <input type="checkbox" name="subscribers" value="1000"> Больше 1000<br>
+            </div>
+
+            <div class="filter-group">
+                <label>Время:</label>
+                <select id="time">
+                    <option value="all">Любое</option>
+                    <option value="msk">МСК</option>
+                    <option value="msk+2">МСК+2</option>
+                    <option value="msk+4">МСК+4</option>
+                    <option value="msk+6">МСК+6</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label>Hard Skills:</label><br>
+                <input type="checkbox" name="hardSkills" value="programmer"> Программист<br>
+                <input type="checkbox" name="hardSkills" value="3D"> 3D<br>
+                <input type="checkbox" name="hardSkills" value="artist"> Художник<br>
+            </div>
+
+            <button id="resetFilters">Сбросить фильтры</button>
+        </div>
+        <div class="youtubers">
+        </div>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
